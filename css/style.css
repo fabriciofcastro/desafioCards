@@ -1,4 +1,4 @@
-@import 'https://fonts.google.com/specimen/Lexend+Deca';
+@import url("https://fonts.google.com/specimen/Lexend+Deca");
 /* line 1, ../Users/Fabricio/Desktop/3-column-preview-card-component-main/scss/_root.scss */
 :root {
   font-size: 62.5%;
@@ -54,6 +54,18 @@
   background-color: #004241;
   border-top-right-radius: .6rem;
   border-bottom-right-radius: .6rem;
+}
+
+/* line 43, ../Users/Fabricio/Desktop/3-column-preview-card-component-main/scss/style.scss */
+#container .button {
+  display: block;
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: .6rem;
+  text-align: center;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

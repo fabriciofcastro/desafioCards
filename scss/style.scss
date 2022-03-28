@@ -1,6 +1,6 @@
 @import './root';
 @import './reset.scss';
-@import 'https://fonts.google.com/specimen/Lexend+Deca';
+@import url('https://fonts.google.com/specimen/Lexend+Deca');
 
 #container {
     width: 144rem;
@@ -40,5 +40,15 @@
         border-bottom-right-radius: .6rem;
     }
 
+    .button {
+        display: block;
+        width: 10rem;
+        height: 2.5rem;
+        border-radius: 1rem;
+        background-color: $transparent-white ;
+        padding: .6rem;
+        text-align: center;
+        text-decoration: none;
+    }
     
 }
