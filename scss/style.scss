@@ -1,0 +1,44 @@
+@import './root';
+@import './reset.scss';
+@import 'https://fonts.google.com/specimen/Lexend+Deca';
+
+#container {
+    width: 144rem;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    #cards {
+        width: 100rem;
+        height: 40rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1;
+    }
+
+    .card {
+        padding: 4rem;
+        font-family: $lexend-Deca;
+    }
+
+    #sedans {
+        background-color: $Bright-orange;
+        border-top-left-radius: .6rem ;
+        border-bottom-left-radius: .6rem;
+    }
+
+    #suvs {
+        background-color: $Dark-cyan;
+    }
+
+    #luxury {
+        background-color: $Very-dark-cyan;
+        border-top-right-radius: .6rem;
+        border-bottom-right-radius: .6rem;
+    }
+
+    
+}
