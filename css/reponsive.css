@@ -1,0 +1,31 @@
+@media (max-width: 480px) {
+  /* line 3, ../Users/Fabricio/Desktop/3-column-preview-card-component-main/scss/media/reponsive.scss */
+  #container #cards {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 9, ../Users/Fabricio/Desktop/3-column-preview-card-component-main/scss/media/reponsive.scss */
+  #cards {
+    width: 22rem;
+  }
+  /* line 13, ../Users/Fabricio/Desktop/3-column-preview-card-component-main/scss/media/reponsive.scss */
+  #cards .card h1,
+  #cards .card p,
+  #cards .card a {
+    margin-top: 2   rem;
+    color: #ffffff;
+  }
+  /* line 20, ../Users/Fabricio/Desktop/3-column-preview-card-component-main/scss/media/reponsive.scss */
+  #container #cards #sedans {
+    border-top-left-radius: .6rem;
+    border-top-right-radius: .6rem;
+    border-bottom-left-radius: 0;
+  }
+  /* line 26, ../Users/Fabricio/Desktop/3-column-preview-card-component-main/scss/media/reponsive.scss */
+  #container #cards #luxury {
+    border-bottom-left-radius: .6rem;
+    border-top-right-radius: 0;
+  }
+}
+
+/*# sourceMappingURL=reponsive.css.map */

@@ -1,22 +1,19 @@
 @import './root';
-@import './reset.scss';
-@import url('https://fonts.google.com/specimen/Lexend+Deca');
+@import './reset';
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 
 #container {
     width: 144rem;
     height: 100vh;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
     #cards {
-        width: 100rem;
-        height: 40rem;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1;
+        grid-template-columns: repeat(3, 23rem);
+        grid-template-rows: auto;
     }
 
     .card {
@@ -40,15 +37,66 @@
         border-bottom-right-radius: .6rem;
     }
 
+    .card figure img {
+        width: 4rem;
+    }
+
+    .card h1,
+    .card p,
+    .card a {
+        margin-top: 2.6rem;
+        color: #ffffff;
+    }
+
+    .card h1 {
+        font-family: $big-Shoulders-Display;
+        font-size: 3rem;
+    }
+
+    .card p {
+        line-height: 2rem;
+    }
+
+    .card a {
+        margin-top: 5rem;
+    }
+
     .button {
         display: block;
         width: 10rem;
-        height: 2.5rem;
-        border-radius: 1rem;
+        height: 3rem;
+        border-radius: 3rem;
         background-color: $transparent-white ;
-        padding: .6rem;
+        padding: .85rem;
         text-align: center;
         text-decoration: none;
     }
+
+    #sedans a {
+        color: $Bright-orange;
+    }
+    #suvs a {
+        color: $Dark-cyan;
+    }
+
+    #luxury a {
+        color: $Very-dark-cyan;
+    }
+
+
+    /*
+        ------------ Attribution ------------
+    */
     
+    .attribution {
+        display: flex;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .attribution p{
+        padding: .8rem;
+    }
+
+
 }

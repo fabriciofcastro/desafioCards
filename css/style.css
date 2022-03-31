@@ -1,71 +1,106 @@
-@import url("https://fonts.google.com/specimen/Lexend+Deca");
-/* line 1, ../Users/Fabricio/Desktop/3-column-preview-card-component-main/scss/_root.scss */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
 :root {
   font-size: 62.5%;
 }
 
-/* line 1, ../Users/Fabricio/Desktop/3-column-preview-card-component-main/scss/_reset.scss */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* line 5, ../Users/Fabricio/Desktop/3-column-preview-card-component-main/scss/style.scss */
 #container {
   width: 144rem;
   height: 100vh;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /*
+        ------------ Attribution ------------
+    */
 }
 
-/* line 14, ../Users/Fabricio/Desktop/3-column-preview-card-component-main/scss/style.scss */
 #container #cards {
-  width: 100rem;
-  height: 40rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1;
+  grid-template-columns: repeat(3, 23rem);
+  grid-template-rows: auto;
 }
 
-/* line 22, ../Users/Fabricio/Desktop/3-column-preview-card-component-main/scss/style.scss */
 #container .card {
   padding: 4rem;
   font-family: "Lexend Deca", sans-serif;
 }
 
-/* line 27, ../Users/Fabricio/Desktop/3-column-preview-card-component-main/scss/style.scss */
 #container #sedans {
   background-color: #e38826;
   border-top-left-radius: .6rem;
   border-bottom-left-radius: .6rem;
 }
 
-/* line 33, ../Users/Fabricio/Desktop/3-column-preview-card-component-main/scss/style.scss */
 #container #suvs {
   background-color: #006970;
 }
 
-/* line 37, ../Users/Fabricio/Desktop/3-column-preview-card-component-main/scss/style.scss */
 #container #luxury {
   background-color: #004241;
   border-top-right-radius: .6rem;
   border-bottom-right-radius: .6rem;
 }
 
-/* line 43, ../Users/Fabricio/Desktop/3-column-preview-card-component-main/scss/style.scss */
+#container .card figure img {
+  width: 4rem;
+}
+
+#container .card h1,
+#container .card p,
+#container .card a {
+  margin-top: 2.6rem;
+  color: #ffffff;
+}
+
+#container .card h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3rem;
+}
+
+#container .card p {
+  line-height: 2rem;
+}
+
+#container .card a {
+  margin-top: 5rem;
+}
+
 #container .button {
   display: block;
   width: 10rem;
-  height: 2.5rem;
-  border-radius: 1rem;
+  height: 3rem;
+  border-radius: 3rem;
   background-color: rgba(255, 255, 255, 0.75);
-  padding: .6rem;
+  padding: .85rem;
   text-align: center;
   text-decoration: none;
 }
 
-/*# sourceMappingURL=style.css.map */
+#container #sedans a {
+  color: #e38826;
+}
+
+#container #suvs a {
+  color: #006970;
+}
+
+#container #luxury a {
+  color: #004241;
+}
+
+#container .attribution {
+  display: flex;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+#container .attribution p {
+  padding: .8rem;
+}

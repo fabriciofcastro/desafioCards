@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "reponsive.css",
+	"sources": [
+		"../scss/media/reponsive.scss"
+	],
+	"sourcesContent": [
+		"@media (max-width: 480px) {\r\n  \r\n    #container #cards {\r\n       display: flex;\r\n       flex-direction: column;\r\n     \r\n    }\r\n\r\n    #cards {\r\n        width: 22rem;\r\n    }\r\n\r\n    #cards .card h1,\r\n    #cards .card p,\r\n    #cards .card a {\r\n        margin-top: 2   rem;\r\n        color: #ffffff;\r\n    }\r\n\r\n    #container #cards #sedans {\r\n        border-top-left-radius: .6rem ;\r\n        border-top-right-radius: .6rem;\r\n        border-bottom-left-radius: 0; \r\n    }\r\n\r\n    #container #cards #luxury {\r\n        border-bottom-left-radius: .6rem;\r\n        border-top-right-radius: 0; \r\n       \r\n    }\r\n} "
+	],
+	"names": [],
+	"mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,KAAK;;EAEpB,AAAA,UAAU,CAAC,MAAM,CAAC;IACf,OAAO,EAAE,IAAI;IACb,cAAc,EAAE,MAAM;GAExB;;EAED,AAAA,MAAM,CAAC;IACH,KAAK,EAAE,KAAK;GACf;;EAED,AAAA,MAAM,CAAC,KAAK,CAAC,EAAE;EACf,MAAM,CAAC,KAAK,CAAC,CAAC;EACd,MAAM,CAAC,KAAK,CAAC,CAAC,CAAC;IACX,UAAU,EAAE,OAAO;IACnB,KAAK,EAAE,OAAO;GACjB;;EAED,AAAA,UAAU,CAAC,MAAM,CAAC,OAAO,CAAC;IACtB,sBAAsB,EAAE,KAAM;IAC9B,uBAAuB,EAAE,KAAK;IAC9B,yBAAyB,EAAE,CAAC;GAC/B;;EAED,AAAA,UAAU,CAAC,MAAM,CAAC,OAAO,CAAC;IACtB,yBAAyB,EAAE,KAAK;IAChC,uBAAuB,EAAE,CAAC;GAE7B"
+}
